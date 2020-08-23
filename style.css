@@ -124,7 +124,7 @@ img{
   color: white;
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:850px){
   img{
     max-height: 100%;
   }

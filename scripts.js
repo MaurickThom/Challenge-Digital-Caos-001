@@ -2,7 +2,7 @@
 
 const share = document.getElementById('share')
 const shareBox = document.getElementById('share-box')
-const mediumBp = matchMedia("(min-width:1440px)");
+const mediumBp = matchMedia("(min-width:850px)");
 function showToolTip(mediaQueryList){
   if(!mediaQueryList.matches) {
     shareBox.style.top = "initial";
